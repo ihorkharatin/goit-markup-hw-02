@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+ a {
+    text-decoration: none;
+ }
+ ul {
+    list-style-type: none;
+ }
+ header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+ }
+ .menu-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 261px;
+    height: 24px;
+ }
