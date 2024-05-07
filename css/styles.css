@@ -71,28 +71,68 @@
     line-height: 100%;
     letter-spacing: -2%;
  }
- h2 {
+ .our-team-title {
     
     font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
  }
- h3 {
-    
+ .strategy-list {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
  }
+ .our-goal-description {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+ }
+
  .button-text {
     
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color:#fff;
     cursor: pointer;
  }
  .button-text:hover {
     background-color: #404BBF;
+ }
+ .button-text:focus {
+   background-color: #404BBF;
+ }
+ .section-business {
+   background-color: #2e2f42;
+ }
+ .effective-solution {
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+ }
+.section-our-team {
+   background-color: #F4F4FD;
+
+}
+ .our-team-images {
+   background-color: #FFFFFF;
+ }
+ .footer {
+   background-color: #2e2f42;
+ }
+ .footer-description {
+   line-height: 1.5;
+   color: #F4F4FD;
+   letter-spacing: 0.02em;
  }
